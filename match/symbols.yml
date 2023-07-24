@@ -17,3 +17,7 @@ matches:
     replace: "∞"
   - regex: ":o(/|\\|)o"
     replace: "⧞"
+  - regex: ":(x|\\*)"
+    replace: "×"
+  - trigger: ":/"
+    replace: "÷"
