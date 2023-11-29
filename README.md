@@ -1,13 +1,12 @@
 # Install
 
 1. [Install Espanso](https://espanso.org/install/).
-2. Clone this repo and replace your Espanso config directory with it.
 
-Linux: `~/.config/espanso`
+2. Run the following command.
 
-MacOS: `~/Library/Application Support/espanso`
-
-Windows: `C:\Users\[USER]\AppData\Roaming\espanso`
+```bash
+espanso install -e --git https://github.com/RyanThePinkHacker/espanso-conf.git pinks-package
+```
 
 3. Type out `:pink<3` and it should be replaced with `🩷`.
 
