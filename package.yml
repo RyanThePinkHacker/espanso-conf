@@ -18,9 +18,9 @@ matches:
     replace: "∞"
   - regex: ":o(/|\\|)o"
     replace: "⧞"
-  - regex: ":(x|\\*)"
+  - regex: ":(mul|multiply)"
     replace: "×"
-  - trigger: ":/"
+  - trigger: ":(div|divide)"
     replace: "÷"
 
   # Superscripts
